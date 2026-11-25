@@ -9,7 +9,7 @@ Dibangun dengan Vite + React + d3. Hasil build berupa situs statis, jadi bisa di
 |---|---|
 | Dashboard hasil | Kartu H1/H2a/H2b, MRR@10 per metode (dev/test), varian PRF, forest plot H1–H3c (MRR@10, nDCG@10, Recall@1, Recall@10), grid λ 5.151 kombinasi, posisi tabel gold, tabel semua metode |
 | Demo kueri benchmark | 1.019 kueri dev/test: peringkat BM25F, Qwen3, RRF, 5 tabel feedback, term ekspansi per field, peringkat akhir semua varian PRF |
-| Coba kueri sendiri | BM25F + field-aware PRF dijalankan di browser atas 600 tabel, dengan slider λ judul/header/sel |
+| Try query | BM25F + field-aware PRF dijalankan di browser atas 600 tabel, dengan slider λ judul/header/sel |
 
 Tab dapat dibuka langsung lewat URL: `#dashboard`, `#demo`, `#coba`.
 
@@ -51,5 +51,5 @@ Untuk memakai run lain, ganti file di `public/data/` dengan format yang sama lal
 ## Catatan
 
 - Angka pada tab *Dashboard* dan *Demo kueri benchmark* berasal langsung dari file hasil eksperimen.
-- Tab *Coba kueri sendiri* adalah pendekatan: hanya sisi sparse (Qwen3 tidak berjalan di browser), dan field tabel direkonstruksi dari `tables.json`, sehingga peringkat BM25F sama dengan eksperimen pada sekitar 90% kueri test.
+- Tab *Try query* adalah pendekatan: hanya sisi sparse (Qwen3 tidak berjalan di browser), dan field tabel direkonstruksi dari `tables.json`, sehingga peringkat BM25F sama dengan eksperimen pada sekitar 90% kueri test.
 - Test pernah dilihat di revisi awal eksperimen, jadi bukan holdout murni. Hasil H2b sensitif terhadap resolusi grid λ (step 0,1: +0,0018, p Holm 0,41).

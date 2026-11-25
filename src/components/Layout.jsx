@@ -31,7 +31,7 @@ export function Icon({ name, size = 16 }) {
 export const TABS = [
   ['dashboard', 'Dashboard hasil', 'chart'],
   ['demo', 'Demo kueri benchmark', 'list'],
-  ['coba', 'Coba kueri sendiri', 'search'],
+  ['coba', 'Try query', 'search'],
 ];
 const SECTIONS = [['rq1', 'RQ1 · Metode', 'activity'], ['rq2', 'RQ2 · PRF & hipotesis', 'layers'], ['lambda', 'Grid λ & posisi gold', 'grid'], ['tabel', 'Tabel semua metode', 'table']];
 
@@ -158,7 +158,7 @@ export function FooterAdmin() {
       <hr />
       <div className="foot-row">
         <span>© 2026 Mutiara Mawarni · 2506575945</span>
-        <span>Run final 24 November 2026 (grid λ step 0,01). Angka dashboard dan demo benchmark berasal dari file hasil eksperimen; “Coba kueri sendiri” adalah pendekatan sparse di browser.</span>
+        <span>Run final 24 November 2026 (grid λ step 0,01). Angka dashboard dan demo benchmark berasal dari file hasil eksperimen; “Try query” adalah pendekatan sparse di browser.</span>
       </div>
     </footer>
   );

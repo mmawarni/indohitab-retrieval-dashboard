@@ -41,7 +41,7 @@ export default function LiveSearch({ tables }) {
   return (
     <div className="panel" style={{ gap: 16 }}>
       <div style={{ display: 'flex', flexDirection: 'column', gap: 6 }}>
-        <h2>Coba kueri sendiri</h2>
+        <h2>Try query</h2>
         <p className="note">
           Berjalan langsung di browser atas 600 tabel: BM25F (bobot judul 4, header 4, sel 1), lalu field-aware PRF sparse dengan 5 tabel feedback dan 15 term.
           Qwen3 tidak dijalankan di sini, dan field tabel direkonstruksi dari tables.json, jadi peringkat bisa sedikit berbeda dari eksperimen (sekitar 90% sama untuk BM25F).
