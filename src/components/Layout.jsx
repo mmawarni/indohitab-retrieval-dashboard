@@ -68,7 +68,7 @@ export function Sidebar({ tab }) {
           )}
           <hr />
           <h6 className="sb-head">Tentang</h6>
-          <p className="sb-note">Mini riset Perolehan Informasi Lanjut, Fasilkom UI. IndoHiTab: 600 tabel, 465 kueri dev, 554 kueri test.</p>
+          <p className="sb-note">Hasil mini riset mata kuliah PIL Ganjil 2026/2027 dengan menggunakan dataset IndoHiTab.</p>
         </div>
       </div>
     </nav>
