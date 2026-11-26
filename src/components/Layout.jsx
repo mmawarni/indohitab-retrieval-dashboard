@@ -132,7 +132,7 @@ export function HeaderStats({ data }) {
     <header className="hero">
       <div className="hero-inner">
         <p className="hero-kicker">Mini Riset · Perolehan Informasi Lanjut · Fasilkom UI</p>
-        <h1>Sparse–Dense Hybrid Table Retrieval dengan Field-Aware PRF</h1>
+        <h1>Sparse–Dense Hybrid Table Retrieval for Indonesian Table Question Answering:<span className="h1-sub">A Field-Aware Pseudo-Relevance Feedback Approach</span></h1>
         <p className="hero-sub">Hasil eksperimen pada IndoHiTab dan demo interaktif pipeline BM25F, Qwen3, RRF dan field-aware pseudo-relevance feedback.</p>
         {cards}
       </div>

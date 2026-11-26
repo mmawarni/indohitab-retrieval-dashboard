@@ -2,7 +2,7 @@
   "name": "indohitab-retrieval-dashboard",
   "private": true,
   "version": "1.0.0",
-  "description": "Dashboard dan demo hasil mini riset Sparse-Dense Hybrid Table Retrieval dengan Field-Aware PRF (IndoHiTab)",
+  "description": "Dashboard dan demo hasil mini riset Sparse-Dense Hybrid Table Retrieval for Indonesian Table Question Answering: A Field-Aware Pseudo-Relevance Feedback Approach (IndoHiTab)",
   "type": "module",
   "scripts": {
     "dev": "vite",

@@ -1,6 +1,6 @@
 # IndoHiTab Retrieval · Dashboard & Demo
 
-Dashboard hasil mini riset **Sparse–Dense Hybrid Table Retrieval dengan Field-Aware PRF** dan demo interaktifnya.
+Dashboard hasil mini riset **Sparse–Dense Hybrid Table Retrieval for Indonesian Table Question Answering: A Field-Aware Pseudo-Relevance Feedback Approach** dan demo interaktifnya.
 Dibangun dengan Vite + React + d3. Hasil build berupa situs statis, jadi bisa di-hosting di mana saja (Vercel, Netlify, GitHub Pages, server kampus).
 
 ## Isi
